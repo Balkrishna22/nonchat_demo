@@ -8,7 +8,7 @@ module.exports = function(app) {
     app.get('/user/getall',user_auth.check_auth,user_auth.getall)
     app.post('/user/send_message',user_auth.check_auth,chatting.sendMessage)
 
-    app.get('/user/get_message',user_auth.check_auth,chatting.getMessage)
+   // app.get('/user/get_message',user_auth.check_auth,chatting.getMessage)
 }  
     
  
